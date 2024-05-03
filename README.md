@@ -51,6 +51,12 @@ Hyperparameters: Improper tuning of hyperparameters like tree depth or learning 
 Data Size and Quality: Small or unrepresentative datasets can cause overfitting.
 The correlation matrix probably was hard to read due to an encoding error.
 </p>
+<p><div><img src="https://github.com/thaoitha/Project3402/blob/main/1b.png" width="600" height="500"></div></p>
+<p><div><img src="https://github.com/thaoitha/Project3402/blob/main/1c.png" width="600" height="500"></div></p>
+<p><div><img src="https://github.com/thaoitha/Project3402/blob/main/1d.png" width="600" height="500"></div></p>
+<p><div><img src="https://github.com/thaoitha/Project3402/blob/main/1g.png" width="600" height="500"></div></p>
+<p><div><img src="https://github.com/thaoitha/Project3402/blob/main/2a.png" width="600" height="500"></div></p>
+
 
 
 ### Problem Formulation
@@ -68,7 +74,7 @@ I used two final models that demonstrated promising performance in mushroom clas
 
   * Training was done in Google Colab on a Dell XPS laptop.
   * A lot of my issues were due to some confusion I had, as I tried both label and one hot encoding and it took a while to figure out why my code kept tossing up errors, whether it not finding 'class' or axis. The ROC curve is less of a curve and more a line, meaning my model is probably not predicting well. I'm unsure of why the correlation matrix turned out like this. Also sorry for using so much seaborn, it's what Im most comfortable with.
-<p><div><img src="" width="600" height="500"></div></p>
+<p><div><img src="https://github.com/thaoitha/Project3402/blob/main/1a.png" width="600" height="500"></div></p>
 
 ### Performance Comparison
 
@@ -76,8 +82,7 @@ I used two final models that demonstrated promising performance in mushroom clas
 
 #### ROC Curve Graph
 
-<p><div><img src="![image](https://github.com/thaoitha/Project3402/assets/113535597/238d24f5-6f86-4176-9c28-9b7573991f6e)
-" width="600" height="500"></div></p>
+<p><div><img src="https://github.com/thaoitha/Project3402/blob/main/roc.png" width="600" height="500"></div></p>
 
 ### Conclusions
 
@@ -85,7 +90,7 @@ I used two final models that demonstrated promising performance in mushroom clas
 
 ### Future Work
 
-*For future work, I will probably spend more time hypertuning the KNN model
+*For future work, I will probably spend more time hypertuning the KNN model, trying out different K values, as well as attempting to try different methods to make XGBoost work.
   
 ## How to reproduce results
 
@@ -95,8 +100,17 @@ I used two final models that demonstrated promising performance in mushroom clas
 
 ### Overview of files in repository
 
-  * The repository has 3 files
-  * 
+  * 1a.png
+  * 1b.png
+  * 1c.png
+  * 1d.png
+  * 1e.png
+  * 1g.png
+  * 2a.png
+  * README.md
+  * mushroomclassification.ipynb
+  * mushrooms.csv
+  * roc.png
   * README.md: Breakdown of Github repository and files.
   
 
